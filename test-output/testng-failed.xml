@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [GRID SAMPLE TEST]" parallel="tests">
+  <parameter name="browserType" value="ie"/>
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed)" parallel="tests">
+    <parameter name="browserType" value="ie"/>
+    <classes>
+      <class name="com.AppiumGrid.Gridmultibrowser">
+        <methods>
+          <include name="beforetest"/>
+          <include name="beforetest"/>
+          <include name="multibrowsers"/>
+        </methods>
+      </class> <!-- com.AppiumGrid.Gridmultibrowser -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed) -->
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER CHROME(failed)" parallel="tests">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.AppiumGrid.Gridmultibrowser">
+        <methods>
+          <include name="beforetest"/>
+          <include name="beforetest"/>
+          <include name="multibrowsers"/>
+        </methods>
+      </class> <!-- com.AppiumGrid.Gridmultibrowser -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER CHROME(failed) -->
+</suite> <!-- Failed suite [GRID SAMPLE TEST] -->

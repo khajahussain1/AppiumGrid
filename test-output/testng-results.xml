@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GRID SAMPLE TEST" duration-ms="11844" started-at="2018-11-09T15:18:00Z" finished-at="2018-11-09T15:18:12Z">
+    <groups>
+    </groups>
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE" duration-ms="9321" started-at="2018-11-09T15:18:00Z" finished-at="2018-11-09T15:18:09Z">
+      <class name="com.AppiumGrid.Gridmultibrowser">
+        <test-method status="PASS" signature="beforetest(java.lang.String)[pri:0, instance:com.AppiumGrid.Gridmultibrowser@49993335]" name="beforetest" is-config="true" duration-ms="9297" started-at="2018-11-09T20:48:00Z" finished-at="2018-11-09T20:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="FAIL" signature="multibrowsers()[pri:0, instance:com.AppiumGrid.Gridmultibrowser@49993335]" name="multibrowsers" duration-ms="8" started-at="2018-11-09T20:48:09Z" finished-at="2018-11-09T20:48:09Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.AppiumGrid.Gridmultibrowser.multibrowsers(Gridmultibrowser.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multibrowsers -->
+      </class> <!-- com.AppiumGrid.Gridmultibrowser -->
+    </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER IE -->
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER CHROME" duration-ms="11844" started-at="2018-11-09T15:18:00Z" finished-at="2018-11-09T15:18:12Z">
+      <class name="com.AppiumGrid.Gridmultibrowser">
+        <test-method status="PASS" signature="beforetest(java.lang.String)[pri:0, instance:com.AppiumGrid.Gridmultibrowser@31a5c39e]" name="beforetest" is-config="true" duration-ms="11832" started-at="2018-11-09T20:48:00Z" finished-at="2018-11-09T20:48:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="FAIL" signature="multibrowsers()[pri:0, instance:com.AppiumGrid.Gridmultibrowser@31a5c39e]" name="multibrowsers" duration-ms="2" started-at="2018-11-09T20:48:12Z" finished-at="2018-11-09T20:48:12Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.AppiumGrid.Gridmultibrowser.multibrowsers(Gridmultibrowser.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multibrowsers -->
+      </class> <!-- com.AppiumGrid.Gridmultibrowser -->
+    </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER CHROME -->
+  </suite> <!-- GRID SAMPLE TEST -->
+</testng-results>

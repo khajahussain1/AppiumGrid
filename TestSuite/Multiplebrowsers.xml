@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="GRID SAMPLE TEST" parallel="tests" thread-count="3">
+
+	<test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER CHROME">
+
+		<parameter name="browserType" value="chrome" />
+
+		<classes>
+
+			<class name="com.AppiumGrid.Gridmultibrowser" />
+
+
+		</classes>
+
+	</test>
+
+	<test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE">
+
+		<parameter name="browserType" value="ie" />
+
+		<classes>
+
+			<class name="com.AppiumGrid.Gridmultibrowser" />
+
+
+		</classes>
+
+	</test>
+
+	
+</suite>
